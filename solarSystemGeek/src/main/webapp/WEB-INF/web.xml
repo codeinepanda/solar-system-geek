@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>Solar System Geek</display-name>
+  <servlet>
+    <servlet-name>solarSystemGeek</servlet-name>
+    <servlet-class>com.techelevator.AgeOnPlanets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>solarSystemGeek</servlet-name>
+    <url-pattern>/howOldAreYou</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>solarSystemWeight</servlet-name>
+    <servlet-class>com.techelevator.WeightOnPlanets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>solarSystemWeight</servlet-name>
+    <url-pattern>/howMuchDoYouWeigh</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>solarSystemDistance</servlet-name>
+    <servlet-class>com.techelevator.HowFarToDrive</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>solarSystemDistance</servlet-name>
+    <url-pattern>/howFarToDrive</url-pattern>
+  </servlet-mapping>
+</web-app>

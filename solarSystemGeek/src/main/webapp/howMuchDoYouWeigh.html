@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>How much do you weigh on each planet</title>
+</head>
+<body>
+
+<form method="GET" action="howMuchDoYouWeigh">
+			
+			<h1>Alien Weight Calculator</h1>
+			<div>
+				<label for="userWeight">Your Weight in Lbs:</label>
+				<input value=0 type="number" name="userWeight" id="userWeight" />
+			</div>
+			<div>
+				<label for="planetMultiplier">Planet:</label>
+				<select name="planetMultiplier" id="planetMultiplier">
+					<option value="null">Please choose a planet</option>
+					<option value="Mercury">Mercury</option>
+					<option value="Venus">Venus</option>
+					<option value="Earth">Earth</option>
+					<option value="Mars">Mars</option>
+					<option value="Jupiter">Jupiter</option>
+					<option value="Saturn">Saturn</option>
+					<option value="Uranus">Uranus</option>
+					<option value="Neptune">Neptune</option>
+					<option value="Pluto">Pluto</option>
+				</select>
+			</div>
+			<div>
+				<input type="submit" value="Calculate your weight!" />
+			</div>
+		</form>
+
+</body>
+</html>

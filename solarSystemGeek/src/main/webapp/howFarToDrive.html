@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>How long would it take to travel to each planet</title>
+</head>
+<body>
+
+<form method="GET" action="howFarToDrive">
+			
+			<h1>Alien Travel Calculator</h1>
+			<div>
+			<label for="modeOfTransportationa">Planet:</label>
+				<select name="modeOfTransportation" id="modeOfTransportation">
+					<option value=0>Select a Mode of Transportation</option>
+					<option value="walking">Walking</option>
+					<option value="car">Car</option>
+					<option value="bullet">Bullet Train</option>
+					<option value="plane">Boeing 747</option>
+					<option value="superPlane">Concorde</option>
+				</select>
+				</div><div>
+				<label for="planetMultiplier">Planet:</label>
+				<select name="planetMultiplier" id="planetMultiplier">
+					<option value="null">Please choose a planet</option>
+					<option value="Mercury">Mercury</option>
+					<option value="Venus">Venus</option>
+					<option value="Mars">Mars</option>
+					<option value="Jupiter">Jupiter</option>
+					<option value="Saturn">Saturn</option>
+					<option value="Uranus">Uranus</option>
+					<option value="Neptune">Neptune</option>
+					<option value="Pluto">Pluto</option>
+				</select>
+			</div><div>
+				<label for="userAge">Your Age:</label>
+				<input value=0 type="number" name="userAge" id="userAge" />
+			</div><div>
+				<input type="submit" value="Calculate your weight!" />
+			</div>
+		</form>
+
+</body>
+</html>
